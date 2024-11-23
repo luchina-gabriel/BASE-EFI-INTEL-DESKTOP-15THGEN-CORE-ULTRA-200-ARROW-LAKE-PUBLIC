@@ -156,8 +156,8 @@ Please use [*ProperTree*](https://github.com/corpnewt/ProperTree/archive/refs/he
 
 SMBIOS|Description
 :----|:----
-MacPro7,1|Because GPU integrated in 13th gen without support for Apple.
-iMacPro1,1|Because GPU integrated in 13th gen without support for Apple.
+MacPro7,1|Because GPU integrated in 15th/Core Ultra 200 gen without support for Apple.
+iMacPro1,1|Because GPU integrated in 15th/Core Ultra 200 gen without support for Apple.
 
 # Catalina and older versions of macOS
 
@@ -177,7 +177,7 @@ iMacPro1,1|Because GPU integrated in 13th gen without support for Apple.
 - **`XhciPortLimit`** - Please `**ENABLE**` to map the USB ports
 	- You can use USBMap.command Utility - [USBMap](https://github.com/corpnewt/USBMap).
 - **`AppleXcpmCfgLock`** - Please **`ENABLE`** if you cannot disable`CFG-Lock` in BIOS.
-- Does NOT SUPPORT iGPU in 13th Gen.
+- Does NOT SUPPORT iGPU in 15th/Core Ultra 200 Gen.
 - You NEED dGPU (dedicated/discrete GPU (eg. RX 560, 570, 580, 590, RX 5700 XT, etc).
 - **`SetupVirtualMap`** - Please **`ENABLE`** if you stuck in Early boot.
 - **`EnableWriteUnprotector`** - Please **`ENABLE`** if you get a Kernel Panic while booting macOS Installer.
