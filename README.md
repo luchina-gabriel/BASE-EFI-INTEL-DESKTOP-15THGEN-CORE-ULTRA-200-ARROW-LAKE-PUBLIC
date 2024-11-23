@@ -183,8 +183,8 @@ iMacPro1,1|Because GPU integrated in 13th gen without support for Apple.
 - **`EnableWriteUnprotector`** - Please **`ENABLE`** if you get a Kernel Panic while booting macOS Installer.
 - Please **`DISABLE`** VT-d in BIOS for first Boot/Install. Then you can try to re-enabled it.
 - Some RTL8125 Ethernet cards no longer activate on these platforms, if this is your case, get another Ethernet card.
-- [AppleMCEReporterDisabler.kext](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip) Add this kext if you want to run macOS Ventura or earlier with Core Ultra.
-- Remove NVMeFix kext to use macOS Sonoma with Core Ultra.
+- Add [AppleMCEReporterDisabler](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip) Kext if you want to run macOS Ventura or earlier with Core Ultra.
+- Remove [NVMEFix](https://github.com/acidanthera/NVMeFix) kext to use macOS Sonoma with Core Ultra.
 
 # Special notes [DeviceProperties > Add]
 
