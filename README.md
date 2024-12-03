@@ -25,8 +25,8 @@ Note|Description
 Initial macOS Support|macOS 10.15, Catalina.
 Last Supported OS|macOS 15 Sequoia.
 
-- Opencore version: 1.0.2
-- Release date: 08/10/2024
+- Opencore version: 1.0.3
+- Release date: 03/12/2024
 
 # Basic Steps
 
@@ -179,7 +179,7 @@ iMacPro1,1|Because GPU integrated in 15th/Core Ultra 200 gen without support for
 - **`AppleXcpmCfgLock`** - Please **`ENABLE`** if you cannot disable`CFG-Lock` in BIOS.
 - Does NOT SUPPORT iGPU in 15th/Core Ultra 200 Gen.
 - You NEED dGPU (dedicated/discrete GPU (eg. RX 560, 570, 580, 590, RX 5700 XT, etc).
-- **`SetupVirtualMap`** - Please **`ENABLE`** if you stuck in Early boot.
+- **`SetupVirtualMap`** - Please **`DISABLE`** if you stuck in Early boot.
 - **`EnableWriteUnprotector`** - Please **`ENABLE`** if you get a Kernel Panic while booting macOS Installer.
 - Please **`DISABLE`** VT-d in BIOS for first Boot/Install. Then you can try to re-enabled it.
 - Add [AppleMCEReporterDisabler](https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip) Kext if you want to run macOS Ventura or earlier with Core Ultra.
