@@ -25,9 +25,9 @@ Note|Description
 Initial macOS Support|macOS 10.15, Catalina.
 Last Supported OS|macOS 26 Tahoe.
 
-- Opencore version: 1.0.5
-- Release date (OC/Kexts): 07/07/2025
-- Last Update Repository: 09/10/2025
+- Opencore version: 1.0.6
+- Release date (OC/Kexts): 03/11/2025
+- Last Update Repository: 03/11/2025
 
 # Basic Steps
 
@@ -112,10 +112,10 @@ These files are **MUST** be included in your EFI's ACPI directory. We recommend 
 
 Table|Description
 :----|:----
-SSDT-PLUG-ALT|Please use [SSDTTime](https://github.com/corpnewt/SSDTTime)
-SSDT-EC-USBX|Please use [SSDTTime](https://github.com/corpnewt/SSDTTime)
-SSDT-AWAC|Please use [SSDTTime](https://github.com/corpnewt/SSDTTime)
-SSDT-RHUB|Please use [SSDTTime](https://github.com/corpnewt/SSDTTime)
+SSDT-PLUG-ALT|[Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug-methods/manual.html) \| [Prebuilt](https://github.com/luchina-gabriel/youtube-files/raw/main/SSDT-PLUG-ALT.aml) \| [Details](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug.html)
+SSDT-EC-USBX|[Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-methods/manual.html) \| [Prebuilt](https://github.com/dortania/Getting-Started-With-ACPI/raw/master/extra-files/compiled/SSDT-EC-USBX-DESKTOP.aml) \| [Details](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html)
+SSDT-AWAC|[Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac-methods/manual.html) \| [Prebuilt](https://github.com/dortania/Getting-Started-With-ACPI/raw/master/extra-files/compiled/SSDT-AWAC.aml) \| [Details](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac.html)
+SSDT-RHUB|[Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/rhub-methods/manual.html) \| [Prebuilt](https://github.com/luchina-gabriel/youtube-files/raw/main/SSDT-RHUB.aml) \| [Details](https://dortania.github.io/Getting-Started-With-ACPI/Universal/rhub.html)
 
 ### Dumping your DSDT in Windows Environment
 [Download iASL Compiler ACPI Tools](https://www.intel.com/content/www/us/en/download/774881/acpi-component-architecture-downloads-windows-binary-tools.html)
